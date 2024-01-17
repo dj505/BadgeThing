@@ -18,5 +18,12 @@ Oh, and it's called "Untitled" because I couldn't think of a witty name for this
 - Row of 4 addressable RGB LEDs
 - 5 buttons for input and/or navigation
 
+# Parts
+The majority of the parts are clearly labelled in the schematic and/or come with LCSC part numbers available through JLC. Not all of them are basic parts, unfortunately, but I used as many as I possibly could. You're also free to order part like the ESP-12 module separately and solder it yourself to save on assembly costs. However, it's important to keep in mind the following:
+- The OLED diplay is made with a **0.7mm pin pitch in mind.** Some of the displays available have a 0.5mm pin pitch and will not fit.
+- The display's ribbon cable should be **no longer than ~12mm.**
+- Every ESP-12 model should fit this footprint, however I use the ESP-12S due to it having the best efficiency. The missing pins along the bottom of the footprint are OK because this design does not use them.
+- The RGB LEDs are made with WS2812B-V2 LEDs in mind specifically, as they have built-in capacitors and such that I was not able to reliably fit on the PCB. Other pin-compatible and signal-compatible LEDs will work, and there is a footprint for one large capacitor, but this is untested and may be unreliable.
+
 # Ordering for assembly
 As this project is meant to be mainly for personal use, I won't go into extensive detail here on how to order this board for assembly. However, a pre-made gerber zip is included in the "production" directory, and the BOM/CPL files can be generated through KiCAD. I recommend using the JLCPCB export plugin to do the heavy lifting for you - the LCSC part numbers I used for most components should be included in the schematic. Feel free to poke me with questions over Discord! You can reach me @dj505.
