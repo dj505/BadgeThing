@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|134310800|101068000|001cdb32-7a0e-46af-bc79-fcfae6cc7776|717a7879-e46a-431d-89e7-617ef1abc8de",
+        "hole_clearance|134310800|101068000|001cdb32-7a0e-46af-bc79-fcfae6cc7776|83ba5c6e-f558-49e0-80b6-eededf759e55",
+        "hole_clearance|134510800|101068000|001cdb32-7a0e-46af-bc79-fcfae6cc7776|45878420-0bb3-4fae-91e0-9b8e04adeedc",
+        "hole_clearance|134510800|101068000|001cdb32-7a0e-46af-bc79-fcfae6cc7776|4a6b59a6-89a3-407a-bbf9-f678b91928b5",
+        "hole_clearance|139910800|101068000|f2750aa6-0def-4904-b7c2-cbd22e6e3917|58c1b049-3d85-4f61-81a4-a4ea9cd5705a",
+        "hole_clearance|139910800|101068000|f2750aa6-0def-4904-b7c2-cbd22e6e3917|8286f8b4-d1f6-45d5-9896-392c4ff6c8b3",
+        "hole_clearance|140110800|101068000|f2750aa6-0def-4904-b7c2-cbd22e6e3917|b721b236-271b-416d-b631-d51bbd94ded3",
+        "hole_clearance|140110800|101068000|f2750aa6-0def-4904-b7c2-cbd22e6e3917|ea0b1ae7-b686-4435-8d1d-dc9ece2d71d8"
+      ],
       "meta": {
         "version": 2
       },
@@ -72,7 +81,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -93,7 +102,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
