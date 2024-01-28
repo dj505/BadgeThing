@@ -1544,7 +1544,7 @@
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/db4fddd8-40d7-4e62-8747-c8dc31d061a1")
     (attr smd)
-    (fp_text reference "SW1" (at -3.467 -0.0042 180) (layer "B.SilkS")
+    (fp_text reference "SW1" (at -3.467 -0.0042) (layer "B.SilkS")
         (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
       (tstamp 7110fc2b-3a05-4bbf-a8b0-286f5aaea19e)
     )
@@ -1700,7 +1700,7 @@
       (net 54 "ESP_RST") (pinfunction "2") (pintype "passive") (tstamp 890f59b8-d1ef-4d69-8e8e-1c58a6e57940))
     (pad "2" smd rect (at 3 -1.875 270) (size 1 0.75) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 54 "ESP_RST") (pinfunction "2") (pintype "passive") (tstamp 4f1cc637-9247-4f4b-ac75-f63a23cee4af))
-    (model "${KICAD7_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Button_Switch_SMD.3dshapes/SW_SPST_TL3342.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2726,7 +2726,7 @@
       (net 34 "QSPI_SD3") (pinfunction "IO3") (pintype "bidirectional") (tstamp fd2b3090-d305-442e-8002-284df6a695cb))
     (pad "8" smd roundrect (at 3.6 1.905 270) (size 1.6 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 78919ce2-8c65-4df7-9281-bcb80d72ba51))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Package_SO.3dshapes/SOIC-8_5.275x5.275mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3321,6 +3321,11 @@
     (pad "S1" thru_hole oval (at 4.32 3.125) (size 1 2.1) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp d4982615-0be7-4e4b-90f7-5f9a2180236c))
     (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ":KICAD7_3DMODEL_DIR:Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3977,7 +3982,7 @@
       (net 67 "Net-(R8-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 47cde370-48b7-4ab9-b8d8-cbbf35f244b5))
     (pad "2" smd rect (at 3 -1.875 90) (size 1 0.75) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 67 "Net-(R8-Pad1)") (pinfunction "2") (pintype "passive") (tstamp c709066c-c4a0-4130-9431-41010f595e51))
-    (model "${KICAD7_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Button_Switch_SMD.3dshapes/SW_SPST_TL3342.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

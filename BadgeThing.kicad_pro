@@ -56,6 +56,8 @@
         }
       ],
       "drc_exclusions": [
+        "footprint_type_mismatch|137170000|127889000|2eebc31c-5827-41e4-9a0a-0f075056316d|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|138324600|132207000|454c3654-72d2-43cc-ba82-8ffb2a31038d|00000000-0000-0000-0000-000000000000",
         "hole_clearance|134310800|101068000|001cdb32-7a0e-46af-bc79-fcfae6cc7776|717a7879-e46a-431d-89e7-617ef1abc8de",
         "hole_clearance|134310800|101068000|001cdb32-7a0e-46af-bc79-fcfae6cc7776|83ba5c6e-f558-49e0-80b6-eededf759e55",
         "hole_clearance|134510800|101068000|001cdb32-7a0e-46af-bc79-fcfae6cc7776|45878420-0bb3-4fae-91e0-9b8e04adeedc",
@@ -81,7 +83,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -102,7 +104,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
