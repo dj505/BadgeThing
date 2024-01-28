@@ -5853,7 +5853,7 @@
     (property "Reference" "R6" (at 167.005 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DNF" (at 167.005 113.665 90)
+    (property "Value" "220 Ohm" (at 167.005 113.665 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 167.005 115.57 0)
