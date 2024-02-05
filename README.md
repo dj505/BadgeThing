@@ -14,7 +14,7 @@ Oh, and it's called "Untitled" because I couldn't think of a witty name for this
 # Features
 - Built-in SSD1306 128*64 OLED display driven over SPI
 - Raspberry Pi RP2040
-- ESP-12 module for WiFi/Bluetooth
+- ESP-12 module for WiFi
   - Compatible with ESP-12E, ESP-12F, and ESP-12S
 - Piezo buzzer pins (though they can be repurposed for other parts that use 1 GPIO)
 - Row of 4 addressable RGB LEDs
