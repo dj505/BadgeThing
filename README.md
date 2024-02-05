@@ -1,6 +1,9 @@
 # Untitled
 A small homebrew dev board, previously known as BadgeThing
 
+![Front View](images/BadgeThing.png)  
+![Back View](images/BadgeThingBack.png)
+
 # What is it?
 Untitled is a software-focused development board, and an excuse for me to learn a bit more about some specific hardware I'd like to incorporate into future projects. The main focus is the integrated SSD1306 OLED display, which I've used in earlier projects as a separate module. This time around, I wanted to adapt the circuit into the project itself to make the whole thing more cohesive.
 
