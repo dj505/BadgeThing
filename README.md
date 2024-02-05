@@ -27,6 +27,9 @@ I couldn't find an easy-to-place foorptint for the 30-pin SSD1306 display, so th
 
 There is also a custom symbol in the schematic for the display, based off of Adafruit's schematic. I can't guarantee all the pins are labelled correctly. I have tested it, and it does work, but you should research and double check the correct pinouts for your own project.
 
+If you end up using either of these, and found them useful, please consider sending a small tip my way!  
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y8106HR)
+
 # Parts
 The majority of the parts are clearly labelled in the schematic and/or come with LCSC part numbers available through JLC. Not all of them are basic parts, unfortunately, but I used as many as I possibly could. You're also free to order part like the ESP-12 module separately and solder it yourself to save on assembly costs. However, it's important to keep in mind the following:
 - The OLED diplay is made with a **0.7mm pin pitch in mind.** Some of the displays available have a 0.5mm pin pitch and will not fit.
